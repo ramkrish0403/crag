@@ -18,12 +18,10 @@
                 "ms-toolsai.jupyter",
                 "github.copilot",
                 "github.copilot-chat",
-                "tomoki1207.pdf",
                 "ms-python.flake8",
                 "ms-python.mypy-type-checker",
                 "ms-python.black-formatter",
-                "ms-python.isort",
-                "DanielSanMedium.dscodegpt"
+                "ms-python.isort"
             ]
         }
     },
