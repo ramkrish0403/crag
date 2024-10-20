@@ -1,0 +1,33 @@
+{
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "python.languageServer": "Default",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportOptionalSubscript": "error",
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
+        },
+    },
+    "ruff.nativeServer": "on",
+    "ruff.configuration": "/workspaces/pyproject.toml",
+    "remote.localPortHost": "allInterfaces",
+    "jupyter.allowUnauthorizedRemoteConnection": true,
+    "python.analysis.autoImportCompletions": true,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": "explicit",
+        "notebook.source.organizeImports": "explicit"
+    },
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+}
